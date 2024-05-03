@@ -1,0 +1,127 @@
+body {
+    border-color: whitesmoke;
+    width: 100%;
+    overflow-x: hidden;
+    display: block;
+    box-shadow: 5px;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px 0px 80px;
+    align-items: center;
+    outline:1px ;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    height: 70px;   
+    
+}
+
+.logo img{
+    height: 20px;
+    vertical-align: middle;
+    width: 147px;
+}
+.container-text a{
+    
+  text-decoration: none;
+  color: black;
+   padding: 20px;
+   position: static;
+   font-size: 20px;
+}
+.search-bar input{
+    padding: 5px 5px 0px 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    box-shadow: none;
+    width: 350px;
+    background: #eaeaea;
+    border: 1px solid transparent;
+    color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    position: relative;
+    height: 30px;
+    transition: all .1s ease-in .1s;
+    
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.ul1{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    position: sticky;
+    height: 120%;
+    list-style-type: none;
+    
+}
+.ul1 a{
+    text-decoration: none;
+    color: black; 
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px;
+    margin: 6px 0;
+    float: right;
+    font-size: larger;
+    cursor: pointer;
+    margin:  10px;
+  
+    
+}
+.ul1 a img{
+    width: 100px;
+}
+.product-img-div{
+    display: flex;
+    gap: 1em;
+  
+}
+.product-img-div img{
+    width: 495px;
+}
+.product-img-div .img1 :hover {
+    overflow: hidden;
+    position: relative;
+    transition: 0.5;
+    transform: scale(0.9);
+}
+.product-img-div .img2:hover {
+    overflow: hidden;
+    position: relative;
+    transition: 0.5;
+    transform: scale(0.9);
+}
+.product-img-div .img3:hover {
+    overflow: hidden;
+    position: relative;
+    transition: 0.5;
+    transform: scale(0.9);
+}
+.ul2{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+    justify-content: center;
+    justify-content: baseline;
+    align-items: center;
+    font-size: 18px;
+    color: #6a6a6a;
+    margin: 0;
+}
+.ul2 a img{
+    height: 180px;
+    width: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.ul1 a p{
+    text-align: center;
+   font-weight: bold;
+}

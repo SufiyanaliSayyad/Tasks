@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       body {
+             border-color: whitesmoke;
+             width: 100%;
+             overflow-x: hidden;
+             display: block;
+        }
+
+        .container_header {
+            box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+            background-color: #fff;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap:  2rem;
+            padding: 1rem;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+          
+    
+}
+
+        
+     .container_header  img{
+            height: 60px;
+            display: flex;
+           
+        }
+
+        .navbar a{
+            text-decoration-line: none;
+            color: black;
+            padding-right: 10px;
+            font-weight: bold;
+        }
+        .search-bar{
+            border-radius: 15px;
+            width: 400px;
+            padding: 10px;
+            outline: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        .search-bar:focus {
+            border-color: dodgerblue;
+        }
+        .search-button {
+            background-color: dodgerblue;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .search-button:hover {
+            background-color: #0d8aff;
+        }
+         
+
+       
+
+        .front-img-content img {
+            padding: 100px 50px;
+            width: 1400px;
+            margin-top: 70px;
+            text-align: center;
+        }
+ 
+        .text-banner-titel {
+            text-transform: uppercase;
+            color: #3e4152;
+            letter-spacing: .15em;
+            font-size: 1.8em;
+            margin: 50px 0 10px 30px;
+            max-height: 5em;
+            font-weight: 700;
+        }
+
+        .silk-slid-img1 img {
+            width: 230px;
+            height: auto;
+            float: left;
+            display: inline-block;
+            margin: 0 20px 60px 0;
+        }
+
+        .text-banner-tite2 {
+            text-transform: uppercase;
+            color: #3e4152;
+            letter-spacing: .15em;
+            font-size: 1.8em;
+            margin: 50px 0 10px 30px;
+            max-height: 5em;
+            font-weight: 700;
+        }
+
+        .silk-slid-img2 img {
+            width: 230px;
+            height: auto;
+            
+            display: inline-block;
+            margin: 50px 20px 60px 0;
+        } 
+
+        .text-banner-tite3 {
+            text-transform: uppercase;
+            color: #3e4152;
+            letter-spacing: .15em;
+            font-size: 1.8em;
+            margin: 50px 0 10px 30px;
+            max-height: 5em;
+            font-weight: 700;
+        }
+        .silk-slid-img3 img {
+            width: 300px;
+            height: auto;
+           
+            display: inline-block;
+            margin: 50px 20px 60px 30px;
+            text-align: justify;
+           
+        } 
+        .desktop-user a{
+            text-decoration-line: none;
+            color: black;
+            padding-right: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            justify-content: right;
+        }
+    
+   
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+    <div class="myntra-header">
+        <div class="container_header" >
+          
+                <div class="logo_class">
+                    <img src="image/myntra.png" alt="myntra">
+                </div>
+                <!-- <div class="men" style="flex-direction: row;"> -->
+                <div class="navbar">
+                    <a href="/shop/men">Men</a>
+                    <!-- </div> -->
+                    <!-- <div class="women"> -->
+                    <a href="/shop/women">Women</a>
+                    <!-- </div> -->
+                    <a href="/shop/kids">Kids</a>
+                    <a href="/shop/home-living">Home &amp; Living</a>
+                    <a href="/personal-care">Beauty</a>
+                    <a href="/studio/home">Studio</a>
+                    <span class="sup" style="color: red;"><sup data-reactid="841">new</sup></span>
+
+                </div>
+                <div>
+                    <input type="search" class="search-bar" placeholder="search for product, barnd and more">
+                    <button class="search-button">Search</button>
+                </div>
+                <div class="desktop-action">
+                    <div class="desktop-userIcon">
+                      
+                        
+                    </div>
+                    <div class="desktop-user">
+                         <a href="">Profile</a><i class="fa-regular fa-user"></i>
+                        <a href="">Wishlist</a>
+                        <a href="">Cart</a>
+                    </div>
+
+        </div>
+    </div>
+
+    </div>
+</header>
+       <section class="main">
+            <div class="front-img-content">
+                <img src="image/myntra1.webp" alt="img1">
+            </div>
+       
+      
+            <div class="text-banner-titel">
+
+                <p>MEDAL WORTHY BRANDS TO BAG</p>
+
+            </div>
+            <div class="silk-slid-img1">
+                <img src="image/1.webp" alt="1">
+                <img src="image/2.webp" alt="2">
+                <img src="image/3.webp" alt="3">
+                <img src="image/4.webp" alt="4">
+                <img src="image/5.webp" alt="5">
+                <img src="image/6.webp" alt="6">
+
+            </div>
+       
+       
+            <div class="text-banner-tite2">
+
+                <p>GRAND GLOBAL BRANDS</p> <br>
+
+            </div><br>
+            <div class="silk-slid-img2">
+                <img src="image/A1.webp" alt="1">
+                <img src="image/A2.webp" alt="2">
+                <img src="image/A3.webp" alt="3">
+                <img src="image/A4.webp" alt="4">
+                <img src="image/A5.webp" alt="5">
+                <img src="image/A6.webp" alt="6">
+
+            </div>
+
+
+   
+        <div class="text-banner-tite3">
+            <p>SHOP BY CATEGORY</p>
+        </div>   
+            <div class="silk-slid-img3">
+
+                <img src="image/B1.webp" alt="1">
+                <img src="image/B1.webp" alt="2">
+                <img src="image/B1.webp" alt="3">
+                <img src="image/B1.webp" alt="4">
+                <img src="image/B1.webp" alt="5">
+                <img src="image/B1.webp" alt="6">
+                <img src="image/B1.webp" alt="7">
+                <img src="image/B1.webp" alt="8">
+                <img src="image/B1.webp" alt="9" style="justify-content: center; display: flex; align-items: center;">
+                <img src="image/B1.webp" alt="10" style="justify-content: center; display: flex; align-items: center;">
+               
+
+            </div>
+       </section>
+    
+
+
+     
+
+
+
+
+
+
+
+
+    
+</body>
+
+</html>

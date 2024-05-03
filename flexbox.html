@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .div-wrapper{
+            display: flex;
+            background-color: DodgerBlue;
+            justify-content: space-between;
+            width: auto;
+        }
+         div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+            
+        }
+       .flex-container{
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            display: flex;
+            background-color: DodgerBlue;
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: nowrap; Default */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-flow: row wrap; */
+
+            /* justify-content: center; */
+            /* justify-content:flex-start ; */
+            /* justify-content:space-around ; */
+            /* justify-content:space-between ; */
+            
+            
+            /* align-items: center; */
+            /* align-items: baseline; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start; Default */
+            /* align-items: stretch; */
+          
+        }
+        .grid-container {
+             display: grid;
+             grid-template-columns: auto auto auto;
+             background-color: #2196F3;
+             padding: 10px;
+    }
+        
+        .grid-item {
+             background-color: rgba(255, 255, 255, 0.8);
+             border: 1px solid rgba(0, 0, 0, 0.8);
+             padding: 20px;
+             font-size: 30px;
+             text-align: center;
+        }  
+    </style>
+</head>
+<body>
+    <div class="div-wrapper">
+         <div>Div1</div>
+         <div>Div2</div>
+         <div>Div3</div>
+         <div>Div4</div>
+         <div>Div5</div>
+         <div>Div6</div>
+         <div>Div7</div>
+         <div>Div8</div>
+    </div>
+
+    <div class="flex-container">
+        <!-- <div style="flex-grow: 1;">Div1</div>
+        <div style="flex-grow: 1;">Div2</div>
+        <div style="flex-grow: 5;">Div3</div> -->
+        <!-- <div >Div4</div>
+        <div style="flex: shrink 0;">Div5</div>
+        <div >Div6</div> -->
+        <!-- <div>Div7</div>
+        <div style="flex: 0 0 20px;">Div8</div>
+        <div>Div9</div> -->
+        <!-- <div style="height: 200px;">Div10</div>
+        <div style="height: 200px;">Div11</div>
+        <div style="height: 200px; align-self: center;">Div12</div>
+        <div style="height: 200px;">Div14</div> -->
+   </div>
+   <!-- <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>  
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>  
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>  
+  </div>
+   -->
+
+</body>
+</html>

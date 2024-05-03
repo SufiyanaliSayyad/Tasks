@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var_function</title>
+    <style>
+        :root {
+            --Blue:  #3498db;
+            --Red:   #e74c3c;
+            --Grey:  #95a5a6;
+            --Black: #2d2d2d;
+            --white:  #fff;
+            
+        }
+        body{
+            background-color:var(--Blue);
+        }
+        h2{
+            color: var(--Red);
+            text-align: center;
+            border-bottom: 2px solid var(--Black);
+            font-size: 100px;
+            margin-bottom: -10px;
+        }
+        .Div{
+          
+            margin: 1rem;
+            background-color: var(--Grey);
+        }
+       button{
+        background-color: var(--white);
+        border: 1px solid var(--Black);
+       }
+       @media only screen and (max-width: 640px) {
+        body{
+            background-color: lightblue;
+        }
+       }
+       @media only screen and (max-width: 640px) {
+        button{
+            background-color: maroon;
+        }
+       }
+       @media only screen and (max-width: 640px) {
+        .Div{
+            background-color: orange;
+        }
+       }
+       .flexbox{
+        margin-top: 20px;
+        display: flex;
+        /* background-color: var(--Red); */
+        border: 1px solid green;
+        justify-content: space-between;
+       }
+       .flexbox div{
+        border: 1px solid brown;
+        background-color: var(--white);
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       }
+       @media only screen and (max-width: 640px) {
+        .flexbox .a1{
+            background-color: orange;
+        }
+       }
+       @media only screen and (max-width: 640px) {
+        .flexbox .a2{
+            background-color: var(--white);
+        }
+       }
+       @media only screen and (max-width: 640px) {
+        .flexbox .a3{
+            background-color: green;
+        }
+       }
+       .img{
+        margin: 20px;
+        text-align: center;
+       }
+       .img img{
+        /* filter:grayscale(100%); */
+        /* filter: blur(5px); */
+        /* filter: brightness(100%); */
+        /* filter: invert(100%); */
+        /* filter: hue-rotate(90deg); */
+        /* filter: contrast(80%); */
+        /* filter: sepia(90%); */
+        
+        
+        filter: blur(0px);
+
+
+
+       }
+       @media only screen and (max-width: 640px) {
+        .img{
+            filter: grayscale(100%);
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>var_function</h1>
+    <div class="Div">
+        <h2>Heading</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam inventore quia voluptate maiores et eligendi maxime laborum alias, vero veritatis vel, tempora quaerat distinctio nisi atque eos quod quisquam vitae! Assumenda suscipit architecto id blanditiis. Facilis quos, soluta sit veniam similique omnis consequatur maxime, nam rem at eos iusto.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam inventore quia voluptate maiores et eligendi maxime laborum alias, vero veritatis vel, tempora quaerat distinctio nisi atque eos quod quisquam vitae! Assumenda suscipit architecto id blanditiis. Facilis quos, soluta sit veniam similique omnis consequatur maxime, nam rem at eos iusto.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam inventore quia voluptate maiores et eligendi maxime laborum alias, vero veritatis vel, tempora quaerat distinctio nisi atque eos quod quisquam vitae! Assumenda suscipit architecto id blanditiis. Facilis quos, soluta sit veniam similique omnis consequatur maxime, nam rem at eos iusto.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam inventore quia voluptate maiores et eligendi maxime laborum alias, vero veritatis vel, tempora quaerat distinctio nisi atque eos quod quisquam vitae! Assumenda suscipit architecto id blanditiis. Facilis quos, soluta sit veniam similique omnis consequatur maxime, nam rem at eos iusto.</p>
+        <button>YES</button>
+        <button>NO</button>
+    </div>
+        <div class="flexbox">
+            <div class="a1">div1</div>
+            <div class="a2">div2</div>
+            <div class="a3">div3</div>
+        </div>
+<div class="img">
+    <img src="image/download.png" alt="GIF" />
+</div>
+</body>
+</html>
